@@ -1,0 +1,19 @@
+.c-WeatherCard {
+  padding: 20px;
+  border-radius: 4px;
+  background: #393f4d;
+  box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.75);
+}
+
+.c-WeatherCard__value {
+  color: #feda6a;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 30px;
+  padding: 8px 16px;
+}
+
+.c-WeatherCard__value-text {
+  font-size: 16px;
+  font-family: 'Josefin Slab', serif;
+  color: #d4d4dc;
+}

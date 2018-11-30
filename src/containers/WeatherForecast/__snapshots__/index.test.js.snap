@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected with default params 1`] = `
+<div
+  className="c-WeatherForecast"
+>
+  <div
+    className="c-WeatherForecast__header"
+  >
+    RenRe Weather App
+  </div>
+  <div
+    className="c-WeatherForecast__body"
+  >
+    <div
+      className="c-WeatherForecast__no-card-data"
+    >
+       
+      Checking our satelites!
+    </div>
+    <Switch
+      leftLabel="°C"
+      on={false}
+      onClick={[Function]}
+      rightLabel="°F"
+    />
+  </div>
+  <div
+    className="c-WeatherForecast__button-group"
+  >
+    <Button
+      active={true}
+      key="Dublin"
+      onClick={[Function]}
+      text="Dublin"
+    />
+    <Button
+      active={false}
+      key="London"
+      onClick={[Function]}
+      text="London"
+    />
+    <Button
+      active={false}
+      key="New York"
+      onClick={[Function]}
+      text="New York"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders as expected with error 1`] = `
+<div
+  className="c-WeatherForecast__error"
+>
+   
+  Error occured, please try again...
+   
+</div>
+`;
+
+exports[`renders as expected with forecast params 1`] = `
+<div
+  className="c-WeatherForecast"
+>
+  <div
+    className="c-WeatherForecast__header"
+  >
+    RenRe Weather App
+  </div>
+  <div
+    className="c-WeatherForecast__body"
+  >
+    <div
+      className="c-WeatherForecast__card-group"
+    >
+      <WeatherCard
+        date="30 Nov 2018"
+        day="Fri"
+        highValue="7"
+        key="30 Nov 2018"
+        label="Fri"
+        lowValue="5"
+      />
+      <WeatherCard
+        date="1 Dec 2018"
+        day="Sat"
+        highValue="7"
+        key="1 Dec 2018"
+        label="Sat"
+        lowValue="5"
+      />
+      <WeatherCard
+        date="2 Dec 2018"
+        day="Sun"
+        highValue="7"
+        key="2 Dec 2018"
+        label="Sun"
+        lowValue="5"
+      />
+    </div>
+    <Switch
+      leftLabel="°C"
+      on={false}
+      onClick={[Function]}
+      rightLabel="°F"
+    />
+  </div>
+  <div
+    className="c-WeatherForecast__button-group"
+  >
+    <Button
+      active={true}
+      key="Dublin"
+      onClick={[Function]}
+      text="Dublin"
+    />
+    <Button
+      active={false}
+      key="London"
+      onClick={[Function]}
+      text="London"
+    />
+    <Button
+      active={false}
+      key="New York"
+      onClick={[Function]}
+      text="New York"
+    />
+  </div>
+</div>
+`;

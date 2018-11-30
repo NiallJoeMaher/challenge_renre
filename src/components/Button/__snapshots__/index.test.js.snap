@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected 1`] = `
+<button
+  className="c-Button"
+  key="Hello World"
+  onClick={[Function]}
+>
+  Hello World
+</button>
+`;

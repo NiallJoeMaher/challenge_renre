@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected 1`] = `
+<div
+  className="c-Switch"
+>
+  <label
+    aria-label="Toggle"
+  >
+    <input
+      checked={false}
+      className="c-Switch__toggle-input"
+      data-testid="toggle-input"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="c-Switch__label--active"
+    >
+      °C
+    </span>
+    <span
+      className="c-Switch__toggle-btn c-Switch--toggle-btn-off"
+    />
+    <span
+      className="c-Switch__label"
+    >
+      °F
+    </span>
+  </label>
+</div>
+`;
+
+exports[`renders as on as expected 1`] = `
+<div
+  className="c-Switch"
+>
+  <label
+    aria-label="Toggle"
+  >
+    <input
+      checked={true}
+      className="c-Switch__toggle-input"
+      data-testid="toggle-input"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="c-Switch__label"
+    >
+      °C
+    </span>
+    <span
+      className="c-Switch__toggle-btn c-Switch--toggle-btn-on"
+    />
+    <span
+      className="c-Switch__label--active"
+    >
+      °F
+    </span>
+  </label>
+</div>
+`;
